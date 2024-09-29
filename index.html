@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="temperature converter celcius to fahrenheit and reverse">
+    <meta name="keywords" content="temperature converter celcius fahrenheit">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="" crossorigin="anonymous"> 
+    <link rel="icon" href="Img/favicon.ico" type="image/x-icon">
+    <title>temperature converter</title>
+</head>
+<body>
+    <h1><span id="temp" class="icontemp"></span>temperature converter</h1>
+
+    <form class="form"  id="form" onsubmit="calctemp();return false">
+        <label for="introduction" id="intro">enter number yould like to change temperatuer</label>
+        <div class="box-temp">
+            <input type="number" name="temp" id="number-temp" autocomplete="off">
+            <select name="" id="options">
+                <option value="cel">°celsius</option>
+                <option value="fah">°fahrenheit</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit">change</button>
+        <br>
+        <span id="result"></span>
+    </form>
+    <div class="temperature">
+       
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/542a943e19.js" crossorigin="anonymous"></script>
+
+  
+</body>
+</html>

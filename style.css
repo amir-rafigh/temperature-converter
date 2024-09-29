@@ -1,0 +1,113 @@
+@import url('https://fonts.cdnfonts.com/css/mono2poser');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&display=swap');
+:root{
+    --font :  'Mono2poser', sans-serif ;
+    --font-label : "Playwrite AU TAS", cursive;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-height: 100vh;
+    text-align: center;
+    /* background-color: #89d4e7; */
+    background-image: url(Img/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NlbHNpdXMtY29udmVydC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgyOH19fQ==\ \(1\).webp);
+    background-position: center;
+    /* background-size: cover; */
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-size: 50px;
+    margin-top: 5rem;
+    /* background-color: red; */
+    font-family: var(--font);
+    color: #fff243;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 10px rgb(10, 10, 88);
+}
+.form{
+    background-color: rgba(255, 255, 255, 0.514);
+    width: 50%;
+    height: 600px;
+    margin: 50px auto;
+    display: grid;
+    box-shadow: 5px 5px 20px 1px blue ;
+    border-radius: 1rem;
+    padding: 10px;
+}
+.form label{
+    font-size: 33px;
+    text-transform: capitalize;
+    padding-top: 30px;
+    padding: 50px;
+    color: #ffee00;
+    text-shadow: 5px 5px 2px rgb(10, 10, 88);
+    font-weight: 800;
+    font-family: var(--font-label);
+    letter-spacing: 1px;
+
+
+}
+.box-temp input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border-color: blue;
+    font-family: var(--font-label);
+    color: black;
+    font-weight: 700;
+    border-width: 3px;
+}
+select{
+    border-color: blue;
+    padding: 5px;
+    border-width: 2px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+button{
+    width: 100px;
+    height: 41px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-family: var(--font-label);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: blue;
+    cursor: pointer;
+    border: none;
+    background-color:#fff243;    
+    margin-bottom: 99px;
+}
+button:hover{
+    box-shadow: 4px 4px 11px  blue;
+}
+#result{
+    background-color:#fff243;
+    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    width: 50%;
+    margin: 0 auto;
+    font-size:2rem ;
+    font-family: var(--font-label);
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-bottom: 32px;
+}
+
